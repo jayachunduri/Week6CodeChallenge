@@ -1,0 +1,259 @@
+﻿body {
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/*Layout Start*/
+
+.Footer {
+            
+            color:black;
+            clear:both;
+            text-align:center;
+            padding:5px; 
+}
+
+.footerLeft {
+    float:left;
+    
+}
+
+.footerRight {
+    float:right;
+}
+
+.ContactHeader{
+    display:inline;
+}
+
+.LogoImage{
+    display:inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 200px;
+    margin-left: 50px;
+    max-height: 10px;
+    max-width: 10px;
+    
+}
+
+.ContactHeadRight{
+    display:inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 200px;
+    margin-left: 50px;
+    float: right;
+}
+
+.Container{
+    display:inline;
+}
+
+.ContainerAboutMe {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 200px;
+    margin-left: 150px;
+    
+}
+
+.ContainerWork{
+    
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 200px;
+    margin-left: 100px;
+    
+}
+
+.ContainerContact{
+    
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+    margin-left: 100px;
+    
+}
+
+.ContainerImage{
+    
+   background: center center no-repeat;
+   align-items: center;
+    margin-left: 100px;
+}
+
+
+
+/*Layout End*/
+
+/*About Styles START*/
+.tabsList{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.About span{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#content .ajax-get{
+    cursor: pointer;
+    text-decoration: underline;
+}
+/*About Styles END*/
+
+/*Home page start*/
+.Head{
+    cursor: pointer;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+/*Home page end*/
+
+/*Work Page Start*/
+.WorkImagesSection1 {
+    display: inline;
+}
+
+.BattleShipImages{
+    display: inline-block;
+    max-height: 90px;
+    max-width: 90px;
+    background-color:#b6a8a8;
+    padding:5px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 250px;
+    margin-left: 300px;
+    
+}
+
+.DragonCombatImages{
+    display: inline-block;
+   
+    background-color:#b6a8a8;
+    height:100px;
+    width:100px;
+    padding:5px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 250px;
+}
+
+.WorkImagesSection2 {
+    display: inline-block;
+}
+
+.GuessThatNumberImages{
+    display: inline-block;
+    max-height: 90px;
+    max-width: 90px;
+    background-color:#b6a8a8;
+    padding:5px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 250px;
+    margin-left: 300px;
+}
+
+.HangmanImages{
+    display: inline-block;
+   
+    background-color:#b6a8a8;
+    height:100px;
+    width:100px;
+    padding:5px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 250px;
+}
+
+.active{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.image-next{
+    cursor: pointer;
+    
+    float: left;
+    //padding: 5px 10px 5px 10px; 
+    font-size: 15px;
+    
+}
+
+.image-previous{
+     cursor:pointer;
+     font-size: 15px;
+     
+     float: right;
+}
+
+/*Work Page Start*/

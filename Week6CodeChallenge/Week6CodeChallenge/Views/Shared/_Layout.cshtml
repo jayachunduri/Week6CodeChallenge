@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
+<link rel="icon" href="~/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="ContactHeader">
+        <div class="LogoImage">
+            <img src="~/Content/themes/base/images/logo_1032481_web.jpg" style="max-height:100px; max-width:100px" />
+        </div>
+        
+        <div class="ContactHeadRight">
+            <ul>
+                <nav>
+        <div class="Head">
+            <li class="ajax-get" data-url="@Url.Action("Index", "Home")">
+                Home
+            </li>
+            </div>
+            &nbsp;|&nbsp;
+                <div class="Head">
+            <li class="ajax-get" data-url="@Url.Action("Index","About")">
+               About 
+            </li>
+                    </div>
+            &nbsp;|&nbsp;    
+                <div class="Head">
+            <li class="ajax-get" data-url="@Url.Action("Index","Work")">
+                Work
+            </li>
+                    </div>
+            &nbsp;|&nbsp;   
+                <div class="Head"> 
+            <li class="ajax-get" data-url="@Url.Action("Index","Careers")">
+                Careers
+            </li>   
+                    </div>     
+            &nbsp;|&nbsp;
+                <div class="Head">
+            <li class="ajax-get" data-url="@Url.Action("Index","Contact")">
+                Contact
+            </li>     
+            </div>
+                    </nav>
+                </ul>
+            
+            
+            </div>
+    </header>
+
+    <section class="content">
+    @RenderBody()
+    </section>
+
+    <footer class="Footer">
+        <div class="footerLeft"> Copyright (c) 2014 Jaya Chunduri </div>
+        <div class="footerRight"> 
+            <a href="@Url.Action("Index", "Home")">
+                Home 
+            </a>
+            &nbsp;|&nbsp;
+            <a href="@Url.Action("Index","About")">
+               About 
+            </a>
+            &nbsp;|&nbsp;    
+            <a href="@Url.Action("Index","Work")">
+                Work
+            </a> 
+            &nbsp;|&nbsp;    
+            <a href="@Url.Action("Index","Careers")">
+                Work
+            </a>       
+            &nbsp;|&nbsp;
+            <a href="@Url.Action("Index","Contact")">
+                Contact
+            </a>     
+       </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

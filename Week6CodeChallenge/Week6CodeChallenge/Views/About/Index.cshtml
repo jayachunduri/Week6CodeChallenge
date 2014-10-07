@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<h2>About</h2>
+<script type="text/javascript">
+    $(document).ready(function () {
+        tabShow();
+    });
+</script>
+
+<section class="tabsList">
+    
+    <span class="tabid" data-url="@Url.Action("Who", "About")">
+        Who
+    </span>
+    
+    <span class="tabid" data-url="@Url.Action("What", "About")">
+        What
+    </span>
+    
+    <span class="tabid" data-url="@Url.Action("Why", "About")">
+        Why
+    </span>
+
+    <span class="tabid" data-url="@Url.Action("How", "About")">
+        How
+    </span>
+
+    <span class="tabid" data-url="@Url.Action("Where", "About")">
+        Where
+    </span>
+</section>
+
+<div class="tabcontent">
+
+</div>
+
+@*<div class="About">
+    <span data-tabID="Who">
+        Who
+    </span>
+    <span data-tabID="What">
+        What
+    </span>
+    <span data-tabID="Why">
+        Why
+    </span>
+    <span data-tabID="How">
+        How
+    </span>
+    <span data-tabID="Where">
+        Where
+    </span>
+</div>
+
+<div id="Who" class="ative">
+    You are in Who Tab
+</div>
+<div id="What" class="hide">
+    You are in What Tab
+</div>
+<div id="Why" class="hide">
+    You are in Why Tab
+</div>
+<div id="How" class="hide">
+    You are in How Tab
+</div>
+<div id="Where" class="hide">
+    You are in Where Tab
+</div>*@
